@@ -3,7 +3,6 @@ package payment;
 public class BitcoinPayment implements PaymentStrategy {
     private String walletAddress;
 
-    // Constructor
     public BitcoinPayment(String walletAddress) {
         this.walletAddress = walletAddress;
     }
